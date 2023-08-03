@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LandmarkDetail: View {
     @EnvironmentObject var modelData: ModelData
-    var landmark: LandMark
+    var landmark: Landmark
     
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id }) ?? 0

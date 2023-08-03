@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LandmarkRow: View {
-    var landmark: LandMark
+    var landmark: Landmark
     
     var body: some View {
         HStack {
